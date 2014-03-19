@@ -1,0 +1,104 @@
+#ueberuns{
+	background-image: url(galerie-background.jpg); 
+	padding-top: 156px; 
+	padding-bottom: 120px; 
+	
+	}
+
+#ueberuns .head {
+margin: 0 auto; 
+width: 65%; 
+}
+
+#ueberuns .process-inhalt {
+margin: 0 auto; 
+width: 65%; 
+}
+
+#ueberuns .box-links{
+
+width: 33.33333%;
+position: relative; 
+float: left; 
+vertical-align: baseline; 
+}
+#ueberuns .box-rechts {
+
+width: 66.66667%;
+float: right; 
+}
+
+#ueberuns .head  h2 { 
+color: #FFFFFF; 
+font: 28px Verdana;  
+font-weight: bold; 
+
+}
+#ueberuns .head .untertitel {
+color: #57606B; 
+font: 16px opensans-regular, sans-serif; 
+
+}
+#ueberuns .intro { 
+color: #57606B; 
+font: 20px/36px opensans-light, sans-serif; 
+}
+
+#ueberuns .process-ueberschrift {
+float: left; 
+width: 65%; 
+position: relativ; 
+color: #FFFFFF; 
+}
+
+
+#ueberuns .viertel{
+
+float: left; 
+display: block; 
+width: 25%;
+padding-right: 1%;
+margin-top: 5%;
+}
+
+
+.team .team-head {
+float: left; 
+width: 100%;
+}
+.team .team-head img {
+
+width: 100%;
+}
+#ueberuns .process-inhalt {
+margin-top: 5%; 
+
+}
+#ueberuns .process-inhalt p{
+width: 90%;
+}
+
+#ueberuns .team {
+margin: 0 auto; 
+width: 65%; 
+}
+
+#ueberuns .viertel img {
+
+width: 216px; 
+height: 225px; 
+}
+
+.viertel-rechts   {
+
+float: right; 
+margin-bottom: 1%;
+margin-top: 5%;
+position: relativ; 
+} 
+.viertel-rechts img {
+
+width: 216px; 
+height: 225px; 
+
+}
