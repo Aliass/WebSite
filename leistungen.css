@@ -1,0 +1,79 @@
+#leistungen{
+	background-image: url(servicesbg.png); 
+	padding-top: 156px; 
+	padding-bottom: 120px; 
+	
+	}
+
+.leistungen-head {
+margin: 0 auto; 
+width: 65%; 
+}
+
+.leistungen-head .box-links{
+
+width: 33.33333%;
+position: relative; 
+float: left; 
+vertical-align: baseline; 
+}
+.leistungen-head .box-rechts {
+
+width: 66.66667%;
+float: right; 
+}
+
+.leistungen-head h2 { 
+color: #11ABB0; 
+font: 28px Verdana;  
+font-weight: bold; 
+
+}
+.leistungen-head .untertitel {
+color: #57606B; 
+font: 18px opensans-regular, sans-serif; 
+
+}
+.leistungen-head .intro { 
+color: #57606B; 
+font: 20px/36px opensans-light, sans-serif; 
+}
+
+.clear {
+clear: both; 
+}
+
+
+
+
+.leistungen-inhalt {
+margin-top: 42px; 
+color: #4E565F;
+margin: 0 auto; 
+width: 65%;
+}
+
+
+.leistungen-inhalt h2 {
+font: 14px Verdana; 
+letter-spacing: 1.5px; 
+text-transform: uppercase; 
+color: #C4C4C4; 
+margin-bottom: 18px;
+}
+
+.leistungen-inhalt p {
+font-size: 16px; 
+line-height: 30px; 
+color: #FFFFFF;
+}
+
+.leistung-box  {
+width: 30%;
+margin-bottom: 3%; 
+margin-right: 3.33333%; 
+position: relative; 
+padding-left: 0;  
+float: left; 
+
+}
