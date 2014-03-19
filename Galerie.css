@@ -1,0 +1,70 @@
+#galerie 
+{
+background: #FFFFFF;
+padding-top: 156px; 
+padding-bottom: 120px; 
+
+}
+
+.galerie-head 
+{
+margin: 0 auto; 
+width: 65%; 
+}
+
+.galerie-head h2
+{
+color: #0f9095;
+font: 28px Verdana;  
+font-weight: bold; 
+}
+
+.galerie-head .untertitel{
+color: #999999;
+font: 18px opensans-regular, sans-serif; 
+
+}
+
+.galerie-head .intro {
+font: 20px/36px opensans-light, sans-serif; 
+color: #A3A3A3;
+}
+
+#galerie-inhalt {
+margin-top: 36px; 
+width: 65%; 
+margin: 0 auto;
+}
+.bild {
+float: left;
+display: block; 
+margin-bottom: 2%;
+margin-top: 6%;
+margin-right: 4.1%;
+position: relative; 
+}
+.bild  img {
+width: 216px;
+height: 225px; 
+margin-right: 0; 
+
+}
+
+.bild-untertitel {
+color: #000000; 
+}
+
+.bild-rechts  {
+
+float: right; 
+margin-bottom: 2%;
+margin-top: 6%;
+position: relativ; 
+} 
+
+.bild-rechts img {
+
+width: 216px; 
+height: 225px; 
+
+}
