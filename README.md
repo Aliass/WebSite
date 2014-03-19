@@ -7,7 +7,7 @@ Vorgehen:
 Issues:
 
 - Neue Ideen, die nicht direkt umgesetzt werden, sollten als Issue vermerkt werden.
-- Fehler, die einem beim durchsehen auffallen sollten ebenfalsl als Issue vermerkt werden.
+- Fehler, die einem beim durchsehen auffallen sollten ebenfalls  als Issue vermerkt werden.
 
 Wiki
 
