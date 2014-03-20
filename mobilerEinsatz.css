@@ -1,0 +1,130 @@
+@media only screen and (max-width:800px) {
+
+/* Mobiles CSS für Leistungen */
+
+#leistungen
+{
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+#leistungen .head .box-links
+{
+	float: left;
+	width: 90%
+}
+
+#leistungen .head .intro,
+#leistungen .leistungen .box-rechts 
+{
+	float:left;
+	width: 100%;
+	font-size: 18px;
+}
+
+#leistungen .inhalt h2 
+{
+    color: black;
+	margin-top: 10%;
+	margin-bottom: 5%;
+ }
+
+#leistungen .inhalt .box
+{
+    width: 100%;
+	margin-bottom: 3%; 
+	margin-top: 3%;
+	position: relative; 
+	float: none; 
+}
+
+#leistungen .inhalt .box p
+ {
+width: 100%;
+font-size: 14px;
+font-family: helvetica;
+}
+
+#leistungen .inhalt .bild 
+{
+    width: 100%;
+}
+
+/* Mobiles CSS für Galerie */
+#galerie
+{
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+#galerie .head {
+   margin-bottom: 10%;
+}
+
+#galerie .head .untertitel,
+#galerie .head .intro {
+    width: 100%;
+	
+}
+
+#galerie .inhalt .bild
+ {
+    float: none;
+	margin: auto;
+    text-align: center;
+}
+
+#galerie .inhalt .bild-rechts
+{
+	float:none;
+	margin: auto;
+	text-align: center;
+	display: block; 
+	margin-bottom: 2%;
+	margin-top: 5%;
+	position: relative; 
+}
+
+
+#galerie .inhalt .bild-rechts img 
+{
+	float: none;
+}
+
+
+#galerie .inhalt .bild  img,
+#galerie .inhalt .bild-rechts img
+{
+	width: 70%;
+	height: 70%;
+}
+
+/* Mobiles CSS für Neuigkeiten */
+#neuigkeiten
+{
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+
+/* Mobiles CSS für Selbstdarstellung */
+#ueberuns
+{
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+#ueberuns .process-inhalt .box,
+#ueberuns .head .box-rechts,
+#ueberuns .head .box-links
+{
+	float:none;
+	width: 100%;
+}
+
+#ueberuns .box-rechts
+{
+	float: none;
+}
+
+}
