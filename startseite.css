@@ -1,4 +1,3 @@
-
 body {
 margin: 0; 
 
@@ -25,15 +24,7 @@ float: left;
 }
 
 #header .logo a { 
-display: block; 
-padding-left: 14.4%; 
-margin: 0; 
-height: 18px; 
-width: 91px;
-line-height: 18px; 
-
-position: absolute; 
-left: 12px; 
+position: absolute;
 top: 16px; 
 }
 
