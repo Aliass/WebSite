@@ -1,102 +1,158 @@
 #ueberuns{
-	background-image: url(galerie-background.jpg); 
+background-image: url(images/backgrounds/gal-background.png); 
 	padding-top: 156px; 
 	padding-bottom: 120px; 
 	
 	}
 
+/* ------- HEAD  ------- */
+	
 #ueberuns .head {
 margin: 0 auto; 
-width: 65%; 
+width: 70%; 
 }
 
-#ueberuns .process-inhalt {
-margin: 0 auto; 
-width: 65%; 
-}
-
-#ueberuns .box-links{
+#ueberuns .head .box-links{
 
 width: 33.33333%;
 position: relative; 
 float: left; 
 vertical-align: baseline; 
 }
-#ueberuns .box-rechts {
+#ueberuns .head .box-rechts {
 
 width: 66.66667%;
 float: right; 
 }
 
 #ueberuns .head  h2 { 
-color: #FFFFFF; 
+color: #0f9095;
 font: 28px Verdana;  
 font-weight: bold; 
-
 }
+
+#ueberuns .head .intro { 
+font: 20px/36px helvetica, sans-serif; 
+color: #57606B;
+}
+
 #ueberuns .head .untertitel {
-color: #57606B; 
-font: 16px opensans-regular, sans-serif; 
-
-}
-#ueberuns .intro { 
-color: #57606B; 
-font: 20px/36px opensans-light, sans-serif; 
+color: #999999;
+font: 16px helvetica, sans-serif; 
 }
 
-#ueberuns .process-ueberschrift {
-float: left; 
-width: 65%; 
+/* ### HEAD ENDE ### */
+
+
+
+
+
+/* ### START Process-inhalt ### */ 
+
+#ueberuns .process-inhalt {
+width: 70%; 
 position: relativ; 
-color: #FFFFFF; 
+margin: 0 auto; 
+margin-top: 5%;
 }
 
+#ueberuns .process-inhalt h3 {
+color: #313131;
+font: 20px Verdana;  
+}
 
-#ueberuns .viertel{
+#ueberuns .process-inhalt .box{
 
-float: left; 
-display: block; 
 width: 25%;
-padding-right: 1%;
+margin-bottom: 3%; 
+margin-top: 3%;
+position: relative; 
+float: left; 
+}
+
+#ueberuns .process-inhalt .box p{
+width: 90%;
+color: #57606B;
+font: 13px/22px helvetica, sans-serif; 
+letter-spacing: 1.5px; 
+
+}
+
+#ueberuns .process-inhalt .box h4 {
+text-transform: uppercase; 
+color: #0f9095;
+font: 13px Verdana, bold;  
+font-weight: bold; 
+}
+
+/* ### ENDE Process ### */
+
+
+
+/* ### START TEAM ### */
+#ueberuns .team .head {
+
+width: 70%; 
+position: relativ; 
+margin: 0 auto; 
 margin-top: 5%;
 }
 
 
-.team .team-head {
-float: left; 
+#ueberuns .team .head h3 {
+color: #313131;
+font: 20px Verdana; 
+ 
+}
+
+#ueberuns .team .head img {
+margin-top: 3%;
 width: 100%;
 }
-.team .team-head img {
 
-width: 100%;
-}
-#ueberuns .process-inhalt {
-margin-top: 5%; 
+#ueberuns .team .inhalt {
 
-}
-#ueberuns .process-inhalt p{
-width: 90%;
-}
-
-#ueberuns .team {
+width: 70%; 
+position: relativ; 
 margin: 0 auto; 
-width: 65%; 
+margin-top: 5%;
 }
 
-#ueberuns .viertel img {
+#ueberuns .team .inhalt span{
+font: 13px/22px helvetica, sans-serif; 
+position: relative;
+   top: -10px;
+   font-size: 13px;
+   line-height: 18px;
+   color: #969696;
+}
+
+#ueberuns .team .inhalt h4{
+   font: 14px/24px  sans-serif;
+color: #0f9095;
+}
+
+#ueberuns .team .box {
+float: left; 
+margin-top: 1%;
+margin-right: 6.2%;
+
+}
+
+#ueberuns .box img {
 
 width: 216px; 
 height: 225px; 
 }
 
-.viertel-rechts   {
+#ueberuns .box-rechts   {
 
 float: right; 
 margin-bottom: 1%;
-margin-top: 5%;
+margin-top: 1%;
 position: relativ; 
 } 
-.viertel-rechts img {
+#ueberuns .box-rechts img {
 
 width: 216px; 
 height: 225px; 
