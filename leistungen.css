@@ -1,79 +1,96 @@
 #leistungen{
-	background-image: url(servicesbg.png); 
+	background-image: url(images/backgrounds/leist-background.png); 
 	padding-top: 156px; 
 	padding-bottom: 120px; 
 	
 	}
 
-.leistungen-head {
+	
+/* ------- HEAD  ------- */
+
+	
+#leistungen .head {
 margin: 0 auto; 
-width: 65%; 
+width: 70%; 
 }
 
-.leistungen-head .box-links{
+#leistungen .head .box-links{
 
 width: 33.33333%;
 position: relative; 
 float: left; 
 vertical-align: baseline; 
 }
-.leistungen-head .box-rechts {
+#leistungen .leistungen .box-rechts {
 
 width: 66.66667%;
 float: right; 
 }
 
-.leistungen-head h2 { 
+#leistungen .head h2 { 
 color: #11ABB0; 
 font: 28px Verdana;  
 font-weight: bold; 
 
 }
-.leistungen-head .untertitel {
+#leistungen .head .untertitel {
+color: #999999; 
+font: 16px helvetica, sans-serif; 
+
+}
+#leistungen .head .intro { 
 color: #57606B; 
-font: 18px opensans-regular, sans-serif; 
-
-}
-.leistungen-head .intro { 
-color: #57606B; 
-font: 20px/36px opensans-light, sans-serif; 
-}
-
-.clear {
-clear: both; 
+font: 20px/36px helvetica, sans-serif; 
 }
 
 
+/* ----- HEAD ENDE ----- */
+
+/* ------- INHALT ------- */
 
 
-.leistungen-inhalt {
+#leistungen .inhalt {
 margin-top: 42px; 
-color: #4E565F;
 margin: 0 auto; 
-width: 65%;
+width: 70%;
 }
 
+#leistungen .inhalt .box  {
+width: 50%;
+margin-bottom: 3%; 
+margin-top: 3%;
+position: relative; 
+float: left; 
+}
 
-.leistungen-inhalt h2 {
+#leistungen .inhalt h2 {
 font: 14px Verdana; 
 letter-spacing: 1.5px; 
 text-transform: uppercase; 
-color: #C4C4C4; 
+color: #FFFFFF; 
 margin-bottom: 18px;
 }
 
-.leistungen-inhalt p {
+#leistungen .inhalt .box img {
+width: 110px;
+height: 110px;
+display: block; 			/*block und auto,auto das Bild in der Mitte bleibt */
+margin-left: auto;
+margin-right: auto;
+}
+
+#leistungen .inhalt .box p {
+width: 90%;
 font-size: 16px; 
-line-height: 30px; 
-color: #FFFFFF;
-}
-
-.leistung-box  {
-width: 30%;
-margin-bottom: 3%; 
-margin-right: 3.33333%; 
-position: relative; 
-padding-left: 0;  
-float: left; 
+font: 16px helvetica;
+line-height: 40px; 
+color: #C4C4C4;
 
 }
+
+#leistungen .inhalt .bild {
+width: 90%;
+}
+
+/* ----- INHALT ENDE ----- */
+
