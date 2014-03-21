@@ -1,0 +1,23 @@
+#kontakt {
+background-image: url(images/backgrounds/kontakt-background.png); 
+padding-top: 156px; 
+padding-bottom: 120px; 
+
+}
+
+#kontakt .head {
+margin: 0 auto; 
+width: 70%; 
+}
+
+#kontakt .head h2 {
+color: #11ABB0; 
+font: 28px Verdana;  
+font-weight: bold; 
+}
+
+#kontakt .head .untertitel{
+color: #999999; 
+font: 16px helvetica, sans-serif; 
+
+}
